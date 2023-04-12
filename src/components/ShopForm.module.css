@@ -1,0 +1,38 @@
+.container{
+    background-color: #93A7AA;
+    height: 450px;
+}
+
+.labels{
+    color:#2E5E4E;
+    margin-bottom: 5px;
+}
+
+input{
+    border:2px solid #8F8255;
+    border-radius: 4px;
+    padding: 2px 2px 2px 10px;
+}
+
+.btn{
+    color: white;
+    width: 15%;
+    font-size: 20px;
+    background-color: #2E5E4E;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px
+}
+.btn:hover{
+    background-color: #346e5a;
+}
+
+#input-error{
+    border:2px solid red;
+}
+
+.btn:disabled{
+    opacity: 0.35;
+    cursor: not-allowed;
+}

@@ -8,7 +8,7 @@ function MainContent(){
     const [product,setProduct] = useState('')
     const [price = Math.random(), setPrice] = useState('')
     const [error,setError] = useState("")
-
+    
     const handleProductChange = (event: any) =>{
         setProduct(event.target.value)
     }
